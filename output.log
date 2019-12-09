@@ -1,0 +1,69 @@
+"static/media/logo.5d5d9eef.svg"
+  source: src/logo.svg:1:44
+  target: build\static\js\main.2cd7b09f.chunk.js:1:119
+"div"
+  source: src/App.tsx:7:5
+  target: build\static\js\main.2cd7b09f.chunk.js:1:366
+"App"
+  source: src/App.tsx:7:20
+  target: build\static\js\main.2cd7b09f.chunk.js:1:383
+"header"
+  source: src/App.tsx:8:7
+  target: build\static\js\main.2cd7b09f.chunk.js:1:408
+"App-header"
+  source: src/App.tsx:8:25
+  target: build\static\js\main.2cd7b09f.chunk.js:1:428
+"img"
+  source: src/App.tsx:9:9
+  target: build\static\js\main.2cd7b09f.chunk.js:1:460
+"App-logo"
+  source: src/App.tsx:9:35
+  target: build\static\js\main.2cd7b09f.chunk.js:1:485
+"logo"
+  source: src/App.tsx:9:50
+  target: build\static\js\main.2cd7b09f.chunk.js:1:500
+"p"
+  source: src/App.tsx:10:9
+  target: build\static\js\main.2cd7b09f.chunk.js:1:527
+"Edit "
+  source: src/App.tsx:10:9
+  target: build\static\js\main.2cd7b09f.chunk.js:1:536
+"code"
+  source: src/App.tsx:11:16
+  target: build\static\js\main.2cd7b09f.chunk.js:1:562
+"src/App.tsx"
+  source: src/App.tsx:11:16
+  target: build\static\js\main.2cd7b09f.chunk.js:1:574
+" and save to reload."
+  source: src/App.tsx:10:9
+  target: build\static\js\main.2cd7b09f.chunk.js:1:589
+"a"
+  source: src/App.tsx:13:9
+  target: build\static\js\main.2cd7b09f.chunk.js:1:631
+"App-link"
+  source: src/App.tsx:14:21
+  target: build\static\js\main.2cd7b09f.chunk.js:1:646
+"https://reactjs.org"
+  source: src/App.tsx:15:16
+  target: build\static\js\main.2cd7b09f.chunk.js:1:662
+"_blank"
+  source: src/App.tsx:16:18
+  target: build\static\js\main.2cd7b09f.chunk.js:1:691
+"noopener noreferrer"
+  source: src/App.tsx:17:15
+  target: build\static\js\main.2cd7b09f.chunk.js:1:704
+"Learn React"
+  source: src/App.tsx:13:9
+  target: build\static\js\main.2cd7b09f.chunk.js:1:727
+"localhost"
+  source: src/serviceWorker.ts:14:32
+  target: build\static\js\main.2cd7b09f.chunk.js:1:754
+"[::1]"
+  source: src/serviceWorker.ts:16:34
+  target: build\static\js\main.2cd7b09f.chunk.js:1:794
+"root"
+  source: src/index.tsx:7:50
+  target: build\static\js\main.2cd7b09f.chunk.js:1:981
+"serviceWorker"
+  source: src/serviceWorker.ts:140:7
+  target: build\static\js\main.2cd7b09f.chunk.js:1:990
