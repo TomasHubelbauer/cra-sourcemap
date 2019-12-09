@@ -187,3 +187,11 @@ points to either the tag name of the parent JSX element if the string literal
 child is the first child or it is preceeded by another string literal child. In
 case it is preceeded by a JSX element, the code location resolves to its tag
 name.
+
+## To-Do
+
+### See if the same problem happens with a JavaScript CRA
+
+### Help diagnose and fix the issue I reported
+
+https://github.com/facebook/create-react-app/issues/8127
