@@ -1,7 +1,7 @@
 # Create-React-App Sourcemap Issue Repro
 
 1. Scaffold a new TypeScript CRA: `npx create-react-app . --template typescript`
-   (I've tried with JavaScript CRA as well, see below)
+   (I've tried with JavaScript CRA as well, see below. Spoiler: it's the same.)
 2. `npm run build` to produce the optimized production bundle with sourcemaps
 3. Walk the generated JavaScript files and load their AST using TypeScript:
 
@@ -196,7 +196,17 @@ a general problem of CRA, I reran the same experiment on a JavaScript CRA
 scaffold. The script used is the same, I just copied it and ran it in the `js`
 directory where I placed the JS CRA scaffold.
 
+```sh
+npx create-react-app js
+cd js
+cp ../index.js .
+npm i klaw fs-extra typescript source-map
+npm run build
+node index.js
+```
 
+The result is exactly the same - the incorrect mapping of JSX string literal
+children onto the predecesor or parent (if no JSX predecesor) element tag name.
 
 ## To-Do
 
