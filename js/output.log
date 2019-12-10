@@ -1,0 +1,69 @@
+"static/media/logo.5d5d9eef.svg"
+  source: js/src/logo.svg:1:44
+  target: js/build\static\js\main.99d1f292.chunk.js:1:91
+"div"
+  source: js/src/App.js:7:5
+  target: js/build\static\js\main.99d1f292.chunk.js:1:341
+"App"
+  source: js/src/App.js:7:20
+  target: js/build\static\js\main.99d1f292.chunk.js:1:358
+"header"
+  source: js/src/App.js:8:7
+  target: js/build\static\js\main.99d1f292.chunk.js:1:383
+"App-header"
+  source: js/src/App.js:8:25
+  target: js/build\static\js\main.99d1f292.chunk.js:1:403
+"img"
+  source: js/src/App.js:9:9
+  target: js/build\static\js\main.99d1f292.chunk.js:1:435
+"App-logo"
+  source: js/src/App.js:9:35
+  target: js/build\static\js\main.99d1f292.chunk.js:1:460
+"logo"
+  source: js/src/App.js:9:50
+  target: js/build\static\js\main.99d1f292.chunk.js:1:475
+"p"
+  source: js/src/App.js:10:9
+  target: js/build\static\js\main.99d1f292.chunk.js:1:502
+"Edit "
+  source: js/src/App.js:10:9
+  target: js/build\static\js\main.99d1f292.chunk.js:1:511
+"code"
+  source: js/src/App.js:11:16
+  target: js/build\static\js\main.99d1f292.chunk.js:1:537
+"src/App.js"
+  source: js/src/App.js:11:16
+  target: js/build\static\js\main.99d1f292.chunk.js:1:549
+" and save to reload."
+  source: js/src/App.js:10:9
+  target: js/build\static\js\main.99d1f292.chunk.js:1:563
+"a"
+  source: js/src/App.js:13:9
+  target: js/build\static\js\main.99d1f292.chunk.js:1:605
+"App-link"
+  source: js/src/App.js:14:21
+  target: js/build\static\js\main.99d1f292.chunk.js:1:620
+"https://reactjs.org"
+  source: js/src/App.js:15:16
+  target: js/build\static\js\main.99d1f292.chunk.js:1:636
+"_blank"
+  source: js/src/App.js:16:18
+  target: js/build\static\js\main.99d1f292.chunk.js:1:665
+"noopener noreferrer"
+  source: js/src/App.js:17:15
+  target: js/build\static\js\main.99d1f292.chunk.js:1:678
+"Learn React"
+  source: js/src/App.js:13:9
+  target: js/build\static\js\main.99d1f292.chunk.js:1:701
+"localhost"
+  source: js/src/serviceWorker.js:14:32
+  target: js/build\static\js\main.99d1f292.chunk.js:1:727
+"[::1]"
+  source: js/src/serviceWorker.js:16:34
+  target: js/build\static\js\main.99d1f292.chunk.js:1:767
+"root"
+  source: js/src/index.js:7:50
+  target: js/build\static\js\main.99d1f292.chunk.js:1:954
+"serviceWorker"
+  source: js/src/serviceWorker.js:132:7
+  target: js/build\static\js\main.99d1f292.chunk.js:1:963
