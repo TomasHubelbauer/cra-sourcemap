@@ -1,6 +1,7 @@
 # Create-React-App Sourcemap Issue Repro
 
 1. Scaffold a new TypeScript CRA: `npx create-react-app . --template typescript`
+   (I've tried with JavaScript CRA as well, see below)
 2. `npm run build` to produce the optimized production bundle with sourcemaps
 3. Walk the generated JavaScript files and load their AST using TypeScript:
 
@@ -188,9 +189,16 @@ child is the first child or it is preceeded by another string literal child. In
 case it is preceeded by a JSX element, the code location resolves to its tag
 name.
 
-## To-Do
+## JavaScript CRA
 
-### See if the same problem happens with a JavaScript CRA
+To distinguish whether this is a problem with TypeScript source map generator or
+a general problem of CRA, I reran the same experiment on a JavaScript CRA
+scaffold. The script used is the same, I just copied it and ran it in the `js`
+directory where I placed the JS CRA scaffold.
+
+
+
+## To-Do
 
 ### Help diagnose and fix the issue I reported
 
