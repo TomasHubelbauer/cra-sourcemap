@@ -189,6 +189,24 @@ child is the first child or it is preceeded by another string literal child. In
 case it is preceeded by a JSX element, the code location resolves to its tag
 name.
 
+I've also tried to see how replacing `pos` with `end` in the script will behave.
+Taking `end` and mapping it back to the original source location should return a
+location which is at the end of the string literal, but it turns out, it will
+always map at the start of the string literal in the case where `pos` worked as
+expected and will map incorrectly to the exact same positions as `pos` did for
+the cases which weren't working correctly even with `post`.
+
+This leads me to believe the source map might not have enough information in it
+to be able to correctly place every location and the best we can get is the
+start of the symbol when querying any location within the symbol in the output,
+but this would not be a problem as we can derive the source end locations easily
+just by using the start location and the string literal symbol text length.
+However, with this bug, this approach won't work as we're not even getting the
+correct start locations.
+
+The result of the script when ran with `end` instead of `pos` is in
+`output-end.log`.
+
 ## JavaScript CRA
 
 To distinguish whether this is a problem with TypeScript source map generator or
