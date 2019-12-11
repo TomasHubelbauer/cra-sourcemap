@@ -231,3 +231,7 @@ children onto the predecesor or parent (if no JSX predecesor) element tag name.
 ### Help diagnose and fix the issue I reported
 
 https://github.com/facebook/create-react-app/issues/8127
+
+### Help resolve the WebPack issue
+
+https://github.com/TomasHubelbauer/webpack-sourcemap
