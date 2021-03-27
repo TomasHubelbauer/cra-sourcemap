@@ -228,10 +228,10 @@ children onto the predecesor or parent (if no JSX predecesor) element tag name.
 
 ## To-Do
 
-### Help diagnose and fix the issue I reported
+### Help solve the Babel source map issue this ended up being
 
-https://github.com/facebook/create-react-app/issues/8127
+https://github.com/babel/babel/issues/10869
 
-### Help resolve the WebPack issue
+### Work on cra-ast-localize once the issue is resolved
 
-https://github.com/TomasHubelbauer/webpack-sourcemap
+That's the repo I've originally spotted the issue in.
