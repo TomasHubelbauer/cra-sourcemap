@@ -230,7 +230,8 @@ children onto the predecesor or parent (if no JSX predecesor) element tag name.
 
 ### Help solve the Babel source map issue this ended up being
 
-https://github.com/babel/babel/issues/10869
+- [GitHub issue](https://github.com/babel/babel/issues/10869)
+- [Slack thread](https://babeljs.slack.com/archives/C062RC35M/p1619742006022600)
 
 ### Work on cra-ast-localize once the issue is resolved
 
